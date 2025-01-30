@@ -54,7 +54,7 @@ class Solution {
             if (maxLeftX > minRightY) {
                 // 왼쪽으로 이동
                 right = partX - 1;
-            } else { //왼쪽 부분이 너무 큼
+            } else { //왼쪽 부분이 너무 작음
                 // 오른쪽 이동
                 left = partX + 1;
             }
